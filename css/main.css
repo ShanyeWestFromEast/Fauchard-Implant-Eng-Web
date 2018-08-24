@@ -1,0 +1,17 @@
+#wrap { position:relative; }
+#content { min-width:1200px; width:100%; overflow:hidden; }
+
+/* 메인 비주얼 */
+.main_visual { position:relative; height:650px; overflow:hidden; }
+
+/* 메인 컨텐츠 */
+.main_content { width:1200px; margin:0px auto; padding-top:20px; overflow:hidden; }
+.main_content ul { width:1209px; height:629px; overflow:hidden; display:block; clear:both; content:''; }
+.main_content li { float:left; background-color:#333; margin-right:9px; margin-bottom:9px; }
+.main_content li a { display:block; width:394px; height:310px; }
+.main_content li a + span { position:absolute; height:0px; font-size:0; line-height:0; text-indent:-99999px; overflow:hidden; }
+
+.hover-change-img {position:relative;}
+.hover-change-img img {position:absolute;left:0;top:0;}
+.hover-change-img .hover-img {opacity:.0;visibility:hidden;transition:all .5s ease;z-index:5;}
+.hover-change-img .hover-img.is-visible {opacity:1;visibility:visible;}
